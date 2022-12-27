@@ -1,0 +1,102 @@
+@import "../helpers/helpers.scss";
+@import "variables.scss";
+@import "fontface.scss";
+@import "text_bg_color.scss";
+@import "typography.scss";
+@import "bootstrap3.scss";
+
+body {
+  margin: 0;
+  @extend .text_reg;
+  font-family: var(--font_secondary);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color_brown);
+}
+
+.container-fluid {
+  width: 100%;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  @extend .container-fluid;
+  margin: 0 auto;
+  width: var(--container_width);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text_center {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+picture {
+  display: block !important;
+}
+
+.section_spacing {
+  padding: 10vmin 0;
+}
+
+//classes for fonts
+.font_primary {
+  font-family: var(--font_primary);
+  font-weight: normal;
+}
+.font_secondary {
+  font-family: var(--font_secondary);
+}
+
+.banner_item {
+  height: calc(100vw * 725 / 1440);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: 767px) {
+      // display: block;
+      padding-top: 40px;
+  }
+}
+
+.react-tabs__tab-list {
+  border-bottom: 0 solid rgba(96, 78, 36, 0.2) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.react-tabs__tab {
+  width: 25%;
+  text-align: center;
+  padding: 25px 0px !important;
+  color: #604E24 !important;
+}
+.react-tabs__tab--selected {
+  background: transparent !important;
+  border: none !important;
+  bottom: 0px !important;
+  border-bottom: 1px solid #E48B22 !important;
+}
+.react-tabs__tab:focus:after {
+  display: none;
+}
