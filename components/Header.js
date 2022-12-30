@@ -30,7 +30,7 @@ const Header = () => {
             </div>
             <div className={`${styles.menu}`}>
               <ul>
-                <li>
+                <li className={`${styles.menu_link}`}>
                   <Link href="/about">
                     <a className="text_xs font_primary">ABOUT</a>
                   </Link>
