@@ -153,8 +153,7 @@ export default function Home() {
                 <h2
                   className={`${styles.heading_section} heading_section toTop`}
                   class=" toTop"
-                  data-scroll
-                >
+                  data-scroll>
                   About Charm & Glow
                 </h2>
                 <p className={`${styles.para} para toTop`} data-scroll>
@@ -214,14 +213,12 @@ export default function Home() {
 
         <section
           className={`${styles.best_sellers} ptb_100`}
-          id="product_collection"
-        >
+          id="product_collection">
           <div className={`${styles.container_main}`}>
             <div class="container">
               <div className={`${styles.popular_title}`}>
                 <h2
-                  className={`${styles.heading_section} heading_section f_w_b`}
-                >
+                  className={`${styles.heading_section} heading_section f_w_b`}>
                   Our Beauty Range
                 </h2>
                 <p className={`${styles.para} para f_w_b`}>
@@ -240,19 +237,15 @@ export default function Home() {
                     <div class="container">
                       <div className={`${styles.tab_description}`}>
                         <div
-                          className={`${styles.tab_description_inside} d_f pb_100 pt_30`}
-                        >
+                          className={`${styles.tab_description_inside} d_f pb_100 pt_30`}>
                           <div
-                            className={`${styles.tab_description_flex} f_r_aj_center`}
-                          >
+                            className={`${styles.tab_description_flex} f_r_aj_center`}>
                             <div
-                              className={`${styles.tab_description_icon} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_icon} f_r_aj_center`}>
                               <img src={tabicon1.src} alt="" />
                             </div>
                             <div
-                              className={`${styles.tab_description_content} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_content} f_r_aj_center`}>
                               <p className={`${styles.para} para`} class="">
                                 Adds Lusture
                                 <br />
@@ -261,16 +254,13 @@ export default function Home() {
                             </div>
                           </div>
                           <div
-                            className={`${styles.tab_description_flex} f_r_aj_center`}
-                          >
+                            className={`${styles.tab_description_flex} f_r_aj_center`}>
                             <div
-                              className={`${styles.tab_description_icon} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_icon} f_r_aj_center`}>
                               <img src={tabicon2.src} alt="" />
                             </div>
                             <div
-                              className={`${styles.tab_description_content} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_content} f_r_aj_center`}>
                               <p className={`${styles.para} para`} class="">
                                 Reduces
                                 <br />
@@ -280,16 +270,13 @@ export default function Home() {
                           </div>
 
                           <div
-                            className={`${styles.tab_description_flex} f_r_aj_center`}
-                          >
+                            className={`${styles.tab_description_flex} f_r_aj_center`}>
                             <div
-                              className={`${styles.tab_description_icon} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_icon} f_r_aj_center`}>
                               <img src={tabicon3.src} alt="" />
                             </div>
                             <div
-                              className={`${styles.tab_description_content} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_content} f_r_aj_center`}>
                               <p className={`${styles.para} para`} class="">
                                 Controls
                                 <br />
@@ -299,16 +286,13 @@ export default function Home() {
                           </div>
 
                           <div
-                            className={`${styles.tab_description_flex} f_r_aj_center`}
-                          >
+                            className={`${styles.tab_description_flex} f_r_aj_center`}>
                             <div
-                              className={`${styles.tab_description_icon} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_icon} f_r_aj_center`}>
                               <img src={tabicon4.src} alt="" />
                             </div>
                             <div
-                              className={`${styles.tab_description_content} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_content} f_r_aj_center`}>
                               <p className={`${styles.para} para`} class="">
                                 Reduces
                                 <br />
@@ -318,16 +302,13 @@ export default function Home() {
                           </div>
 
                           <div
-                            className={`${styles.tab_description_flex} f_r_aj_center`}
-                          >
+                            className={`${styles.tab_description_flex} f_r_aj_center`}>
                             <div
-                              className={`${styles.tab_description_icon} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_icon} f_r_aj_center`}>
                               <img src={tabicon5.src} alt="" />
                             </div>
                             <div
-                              className={`${styles.tab_description_content} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_content} f_r_aj_center`}>
                               <p className={`${styles.para} para`} class="">
                                 Paraben
                                 <br />
@@ -352,13 +333,11 @@ export default function Home() {
                                 ₹99.00
                               </p>
                               <div
-                                className={`${styles.btn_section} btn_section`}
-                              >
+                                className={`${styles.btn_section} btn_section`}>
                                 <a
                                   className={`${styles} btn_txt`}
                                   href="https://www.amazon.in/CHARM-GLOW-Aritha-Shikakai-Shampoo/dp/B08L5B8L7H/ref=sr_1_1_sspa?keywords=charm%2B%26%2Bglow%2Bshampoo&qid=1660299190&sprefix=charm%2B%26%2Bglow%2B%2Caps%2C250&sr=8-1-spons&smid=A3074GI1666KH5&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE3NlkxQ0UzSjRFVUcmZW5jcnlwdGVkSWQ9QTA4ODE5MjE0Vk9TTkZLRjk2RlYmZW5jcnlwdGVkQWRJZD1BMDk0MjM0ODM5Qk41NlRMQ0FPU0Emd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1"
-                                  target="_blank"
-                                >
+                                  target="_blank">
                                   BUY NOW
                                 </a>
                               </div>
@@ -377,13 +356,11 @@ export default function Home() {
                                 ₹99.00
                               </p>
                               <div
-                                className={`${styles.btn_section} btn_section`}
-                              >
+                                className={`${styles.btn_section} btn_section`}>
                                 <a
                                   className={`${styles} btn_txt`}
                                   href="https://www.amazon.in/CHARM-GLOW-Aritha-Shikakai-Shampoo/dp/B08L5B8L7H/ref=sr_1_1_sspa?keywords=charm%2B%26%2Bglow%2Bshampoo&qid=1660299190&sprefix=charm%2B%26%2Bglow%2B%2Caps%2C250&sr=8-1-spons&smid=A3074GI1666KH5&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE3NlkxQ0UzSjRFVUcmZW5jcnlwdGVkSWQ9QTA4ODE5MjE0Vk9TTkZLRjk2RlYmZW5jcnlwdGVkQWRJZD1BMDk0MjM0ODM5Qk41NlRMQ0FPU0Emd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1"
-                                  target="_blank"
-                                >
+                                  target="_blank">
                                   BUY NOW
                                 </a>
                               </div>
@@ -402,13 +379,11 @@ export default function Home() {
                                 ₹99.00
                               </p>
                               <div
-                                className={`${styles.btn_section} btn_section`}
-                              >
+                                className={`${styles.btn_section} btn_section`}>
                                 <a
                                   className={`${styles} btn_txt`}
                                   href="https://www.amazon.in/CHARM-GLOW-Aritha-Shikakai-Shampoo/dp/B08L5B8L7H/ref=sr_1_1_sspa?keywords=charm%2B%26%2Bglow%2Bshampoo&qid=1660299190&sprefix=charm%2B%26%2Bglow%2B%2Caps%2C250&sr=8-1-spons&smid=A3074GI1666KH5&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE3NlkxQ0UzSjRFVUcmZW5jcnlwdGVkSWQ9QTA4ODE5MjE0Vk9TTkZLRjk2RlYmZW5jcnlwdGVkQWRJZD1BMDk0MjM0ODM5Qk41NlRMQ0FPU0Emd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1"
-                                  target="_blank"
-                                >
+                                  target="_blank">
                                   BUY NOW
                                 </a>
                               </div>
@@ -427,13 +402,11 @@ export default function Home() {
                                 ₹99.00
                               </p>
                               <div
-                                className={`${styles.btn_section} btn_section`}
-                              >
+                                className={`${styles.btn_section} btn_section`}>
                                 <a
                                   className={`${styles} btn_txt`}
                                   href="https://www.amazon.in/CHARM-GLOW-Aritha-Shikakai-Shampoo/dp/B08L5B8L7H/ref=sr_1_1_sspa?keywords=charm%2B%26%2Bglow%2Bshampoo&qid=1660299190&sprefix=charm%2B%26%2Bglow%2B%2Caps%2C250&sr=8-1-spons&smid=A3074GI1666KH5&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE3NlkxQ0UzSjRFVUcmZW5jcnlwdGVkSWQ9QTA4ODE5MjE0Vk9TTkZLRjk2RlYmZW5jcnlwdGVkQWRJZD1BMDk0MjM0ODM5Qk41NlRMQ0FPU0Emd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1"
-                                  target="_blank"
-                                >
+                                  target="_blank">
                                   BUY NOW
                                 </a>
                               </div>
@@ -449,19 +422,15 @@ export default function Home() {
                     <div class="container">
                       <div className={`${styles.tab_description}`}>
                         <div
-                          className={`${styles.tab_description_inside} d_f pb_100 pt_30`}
-                        >
+                          className={`${styles.tab_description_inside} d_f pb_100 pt_30`}>
                           <div
-                            className={`${styles.tab_description_flex} f_r_aj_center`}
-                          >
+                            className={`${styles.tab_description_flex} f_r_aj_center`}>
                             <div
-                              className={`${styles.tab_description_icon} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_icon} f_r_aj_center`}>
                               <img src={tabicon1.src} alt="" />
                             </div>
                             <div
-                              className={`${styles.tab_description_content} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_content} f_r_aj_center`}>
                               <p className={`${styles.para} para`} class="">
                                 Adds Lusture
                                 <br />
@@ -470,16 +439,13 @@ export default function Home() {
                             </div>
                           </div>
                           <div
-                            className={`${styles.tab_description_flex} f_r_aj_center`}
-                          >
+                            className={`${styles.tab_description_flex} f_r_aj_center`}>
                             <div
-                              className={`${styles.tab_description_icon} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_icon} f_r_aj_center`}>
                               <img src={tabicon2.src} alt="" />
                             </div>
                             <div
-                              className={`${styles.tab_description_content} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_content} f_r_aj_center`}>
                               <p className={`${styles.para} para`} class="">
                                 Reduces
                                 <br />
@@ -489,16 +455,13 @@ export default function Home() {
                           </div>
 
                           <div
-                            className={`${styles.tab_description_flex} f_r_aj_center`}
-                          >
+                            className={`${styles.tab_description_flex} f_r_aj_center`}>
                             <div
-                              className={`${styles.tab_description_icon} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_icon} f_r_aj_center`}>
                               <img src={tabicon3.src} alt="" />
                             </div>
                             <div
-                              className={`${styles.tab_description_content} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_content} f_r_aj_center`}>
                               <p className={`${styles.para} para`} class="">
                                 Controls
                                 <br />
@@ -508,16 +471,13 @@ export default function Home() {
                           </div>
 
                           <div
-                            className={`${styles.tab_description_flex} f_r_aj_center`}
-                          >
+                            className={`${styles.tab_description_flex} f_r_aj_center`}>
                             <div
-                              className={`${styles.tab_description_icon} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_icon} f_r_aj_center`}>
                               <img src={tabicon4.src} alt="" />
                             </div>
                             <div
-                              className={`${styles.tab_description_content} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_content} f_r_aj_center`}>
                               <p className={`${styles.para} para`} class="">
                                 Reduces
                                 <br />
@@ -527,16 +487,13 @@ export default function Home() {
                           </div>
 
                           <div
-                            className={`${styles.tab_description_flex} f_r_aj_center`}
-                          >
+                            className={`${styles.tab_description_flex} f_r_aj_center`}>
                             <div
-                              className={`${styles.tab_description_icon} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_icon} f_r_aj_center`}>
                               <img src={tabicon5.src} alt="" />
                             </div>
                             <div
-                              className={`${styles.tab_description_content} f_r_aj_center`}
-                            >
+                              className={`${styles.tab_description_content} f_r_aj_center`}>
                               <p className={`${styles.para} para`} class="">
                                 Paraben
                                 <br />
@@ -561,13 +518,11 @@ export default function Home() {
                                 ₹99.00
                               </p>
                               <div
-                                className={`${styles.btn_section} btn_section`}
-                              >
+                                className={`${styles.btn_section} btn_section`}>
                                 <a
                                   className={`${styles} btn_txt`}
                                   href="https://www.amazon.in/CHARM-GLOW-Aritha-Shikakai-Shampoo/dp/B08L5B8L7H/ref=sr_1_1_sspa?keywords=charm%2B%26%2Bglow%2Bshampoo&qid=1660299190&sprefix=charm%2B%26%2Bglow%2B%2Caps%2C250&sr=8-1-spons&smid=A3074GI1666KH5&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE3NlkxQ0UzSjRFVUcmZW5jcnlwdGVkSWQ9QTA4ODE5MjE0Vk9TTkZLRjk2RlYmZW5jcnlwdGVkQWRJZD1BMDk0MjM0ODM5Qk41NlRMQ0FPU0Emd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1"
-                                  target="_blank"
-                                >
+                                  target="_blank">
                                   BUY NOW
                                 </a>
                               </div>
@@ -586,13 +541,11 @@ export default function Home() {
                                 ₹99.00
                               </p>
                               <div
-                                className={`${styles.btn_section} btn_section`}
-                              >
+                                className={`${styles.btn_section} btn_section`}>
                                 <a
                                   className={`${styles} btn_txt`}
                                   href="https://www.amazon.in/CHARM-GLOW-Aritha-Shikakai-Shampoo/dp/B08L5B8L7H/ref=sr_1_1_sspa?keywords=charm%2B%26%2Bglow%2Bshampoo&qid=1660299190&sprefix=charm%2B%26%2Bglow%2B%2Caps%2C250&sr=8-1-spons&smid=A3074GI1666KH5&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE3NlkxQ0UzSjRFVUcmZW5jcnlwdGVkSWQ9QTA4ODE5MjE0Vk9TTkZLRjk2RlYmZW5jcnlwdGVkQWRJZD1BMDk0MjM0ODM5Qk41NlRMQ0FPU0Emd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1"
-                                  target="_blank"
-                                >
+                                  target="_blank">
                                   BUY NOW
                                 </a>
                               </div>
@@ -625,8 +578,7 @@ export default function Home() {
                 ref={(slider1) => setNav1(slider1)}
                 slidesToShow={1}
                 dots={false}
-                className={`${styles.slider} ${styles.slider_content} ${styles.customers_slider_1}`}
-              >
+                className={`${styles.slider} ${styles.slider_content} ${styles.customers_slider_1}`}>
                 <div className={`${styles.slider_content_item}`}>
                   <img src={coments_star.src} />
                   <p className={`${styles.para1} para f_w_m`}>
@@ -749,8 +701,7 @@ export default function Home() {
                 ref={(slider2) => setNav2(slider2)}
                 slidesToShow={1}
                 dots={false}
-                className={`${styles.slider} ${styles.slider_img} ${styles.customers_slider_2}`}
-              >
+                className={`${styles.slider} ${styles.slider_img} ${styles.customers_slider_2}`}>
                 <div className={`${styles.slider_img_item}`}>
                   <div className={`${styles.slider_img_item_content}`}>
                     <img
@@ -798,8 +749,7 @@ export default function Home() {
                 ref={(slider3) => setNav3(slider3)}
                 slidesToShow={2}
                 dots={false}
-                className={`${styles.slider} ${styles.slider_img} ${styles.customers_slider_3}`}
-              >
+                className={`${styles.slider} ${styles.slider_img} ${styles.customers_slider_3}`}>
                 <div className={`${styles.slider_img_item}`}>
                   <div className={`${styles.slider_img_item_content}`}>
                     <img
@@ -875,6 +825,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+
       <Footer />
     </div>
   );
